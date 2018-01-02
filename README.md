@@ -14,8 +14,8 @@ The partial codes are based on
 ### Quantitative Redults
 |   | mean IoU | Model Size|
 |------|:------:|:------:|
-| encoder     | 53.66% | 1.5M|
-| encoder + decoder (step-by-step training) | 56.04% | 1.6M|
+| encoder     | 53.66% | 1.38M|
+| encoder + decoder (step-by-step training) | 56.04% | 1.49M|
 
 The best mean IoU of **56.04%** on the val set is close to the **58.3%** in the paper (58.3% is reported on the test set)
 
