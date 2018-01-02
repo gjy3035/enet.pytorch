@@ -1,10 +1,3 @@
----
-layout: post
-title: 2017-12-28-ENet
-category: "reading"
-tags: [Code]
-description: ""
----
 # ENet.PyTorch
 This repository is a PyTorch implementation of [ENet: A Deep Neural Network Architecture for Real-Time Semantic Segmentation](https://arxiv.org/abs/1606.02147). 
 The partial codes are based on 
@@ -28,7 +21,7 @@ The best mean IoU of **56.04%** in the val set is close to the **58.3%** in the 
 
 ### Qualitative  Redults
 |   | exemplars | 
-|------|:------:|:------:|
+|------|:------:|
 | encoder     |![Original images, ground truth, predicted images][1] | 
 | encoder + decoder (step-by-step training) | ![Original images, ground truth, predicted images][2] | 
 
