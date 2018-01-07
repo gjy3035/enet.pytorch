@@ -65,7 +65,7 @@ def main():
     #                 {'params': net.decoder.parameters(), 'lr':cfg.TRAIN.LR*20, 'weight_decay':cfg.TRAIN.WEIGHT_DECAY}                
     #                 ])
 
-    scheduler = StepLR(optimizer, step_size=cfg.TRAIN.NUM_EPOCH_LR_DECAY, gamma=cfg.TRAIN.NUM_EPOCH_LR_DECAY)
+    scheduler = StepLR(optimizer, step_size=cfg.TRAIN.NUM_EPOCH_LR_DECAY, gamma=cfg.TRAIN.LR_DECAY)
 
     _t = {'train time' : Timer(),'val time' : Timer()} 
 
